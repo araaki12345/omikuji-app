@@ -9,6 +9,9 @@ const zenAntique = Zen_Antique({
 export const metadata = {
   title: 'お正月VRCおみくじ',
   description: 'VRChatterに向けたお正月おみくじジェネレーター',
+  icons: {
+    icon: 'favicon.ico',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
