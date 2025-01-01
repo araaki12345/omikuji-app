@@ -1,4 +1,10 @@
+import { Zen_Antique } from 'next/font/google';
 import './globals.css';
+
+const zenAntique = Zen_Antique({
+  weight: '400',
+  subsets: ['latin'],
+});
 
 export const metadata = {
   title: 'お正月VRCおみくじ',
@@ -7,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ja">
+    <html lang="ja" className={zenAntique.className}>
       <body>
         {children}
       </body>

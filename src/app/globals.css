@@ -13,3 +13,8 @@
   60% { content: '..'; }
   80% { content: '...'; }
 }
+
+.fortune-text {
+  font-family: var(--zen-antique-font), serif;
+  -webkit-text-stroke: 1px #00000015;
+}
