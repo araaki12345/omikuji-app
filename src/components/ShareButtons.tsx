@@ -9,7 +9,7 @@ interface ShareButtonsProps {
 }
 
 export default function ShareButtons({ result, message }: ShareButtonsProps) {
-  const url = "https://omikuji-app.vercel.app";
+  const url = "https://vrc-omikuji.vercel.app";
   const shareText = `お正月のVRCおみくじ結果: ${result}！\n${message}\n#おみくじ #正月`;
   
   const encodedText = encodeURIComponent(shareText);
